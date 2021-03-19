@@ -1,5 +1,126 @@
 @import "./reset.css";
 
+div {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: fit-content;
+  height: 1024px;
+  display: flex;
+}
+
+.first {
+  background-color: #171614;
+  width: 850px;
+  height: inherit;
+  padding: 70px;
+}
+
+/* title section */
+
+.first .title {
+  height: 410px;
+  width: 666px;
+  /* border: 1px solid silver; */
+  /* typography setting */
+  line-height: 108px;
+  font-size: 95px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.first .title .font-1 {
+  /* this font-family is not available on google fonts */
+  font-family: "Berthold Akzidenz Grotesk", sans-serif;
+  color: #fefaf6;
+}
+
+.first .title .font-2 {
+  /* this font-family is not available on google fonts */
+  font-family: Optima, sans-serif;
+  -webkit-text-stroke: 1px #fefaf6;
+}
+
+.first .title .more {
+  margin: auto 10px;
+}
+
+.first .title .dots {
+  color: #f49958;
+  font-family: serif;
+  font-style: normal;
+  letter-spacing: 12px;
+}
+
+/* scroll-to-see-more section */
+
+.first .scroll-to-see-more {
+  margin-top: 130px;
+  font-family: "Berthold Akzidenz Grotesk", sans-serif;
+  color: #fefaf6;
+  font-size: 31px;
+  display: flex;
+  align-items: center;
+}
+
+.first .scroll-to-see-more span {
+  margin-left: 14px;
+  font-size: 24px;
+  font-family: monospace, serif;
+}
+
+/* menu section */
+
+.first .menu {
+  position: absolute;
+  top: 850px;
+}
+
+.first .menu a {
+  text-decoration: none;
+  display: block;
+  color: #c8c8c8;
+  margin-bottom: 40px;
+  /* Typograph setting */
+  font-family: Optima;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.vertical-bar {
+  /* width: 130px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  height: inherit;
+  background-color: #fefaf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-bar .text {
+  text-transform: uppercase;
+  /* vertical text */
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  /* typograph setting */
+  color: #171614;
+  font-family: Optima, sans-serif;
+  font-size: 79px;
+}
+
+.pic {
+  height: inherit;
+}
+
+.pic img {
+  height: inherit;
 }
