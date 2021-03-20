@@ -291,10 +291,10 @@ body {
   height: inherit;
   display: flex;
   justify-content: center;
-  margin-top: 170px;
 }
 
 .submit .center {
+  margin-top: 170px;
   width: 630px;
   height: max-content;
   /* height: 724px; */
