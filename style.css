@@ -12,10 +12,10 @@ body {
   width: fit-content;
   height: 1024px;
   display: flex;
+  background-color: #171614;
 }
 
 .first {
-  background-color: #171614;
   width: 850px;
   height: inherit;
   padding: 70px;
@@ -117,10 +117,263 @@ body {
   font-size: 79px;
 }
 
+/* pic class */
+
 .pic {
   height: inherit;
 }
 
 .pic img {
   height: inherit;
+}
+
+/* second section */
+
+.second {
+  width: 745px;
+  padding-top: 70px;
+  padding-left: 114px;
+}
+
+.second .heading {
+  font-family: Optima, sans-serif;
+  font-size: 61px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #fefaf6;
+}
+
+.second .statistic {
+  margin-top: 72px;
+  display: flex;
+  /* typograph setting */
+  font-family: Optima, sans-serif;
+  font-size: 49px;
+  line-height: 48px;
+  color: #f49958;
+}
+
+.second .statistic div:first-child {
+  margin-right: 54px;
+}
+
+.second .statistic div p:first-child {
+  margin-bottom: 12px;
+}
+
+.second .paragraph {
+  margin-top: 72px;
+  color: #c8c8c8;
+  width: 522px;
+  /* typograph setting */
+  font-family: "Berthold Akzidenz Grotesk", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.second .paragraph p:first-child {
+  margin-bottom: 20px;
+}
+
+/* third section */
+
+.third {
+  position: relative;
+  height: inherit;
+  width: 812px;
+}
+
+.third .image-container {
+  width: 237px;
+  height: 237px;
+}
+
+.third .image-container img {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  top: 394px;
+}
+
+/* fourth section */
+
+.fourth {
+  width: 763px;
+  height: inherit;
+  padding-top: 70px;
+  padding-left: 114px;
+}
+
+.fourth .heading {
+  font-family: Optima, sans-serif;
+  font-size: 61px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #fefaf6;
+}
+
+.fourth .rect {
+  margin: 48px 0;
+  width: 48px;
+  height: 12px;
+  background-color: #f49958;
+}
+
+.fourth .paragraph {
+  color: #c8c8c8;
+  width: 522px;
+  /* typograph setting */
+  font-family: "Berthold Akzidenz Grotesk", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.fourth .paragraph p:first-child {
+  margin-bottom: 12px;
+}
+
+/* topic class */
+
+.topic {
+  width: 393px;
+  height: inherit;
+  padding: 78px 57px;
+  border-left: 2px solid #c8c8c8;
+  border-right: 2px solid #c8c8c8;
+  border-collapse: collapse;
+}
+
+.topic .image-container {
+  width: 279px;
+  height: 362px;
+  margin-bottom: 44px;
+}
+
+.topic .image-container img {
+  width: inherit;
+  height: inherit;
+}
+
+.topic .heading {
+  /* typograph setting */
+  font-family: Optima, sans-serif;
+  font-size: 39px;
+  line-height: 48px;
+  color: #fefaf6;
+}
+
+.topic .rect {
+  margin: 24px 0;
+  width: 54px;
+  height: 6px;
+  background-color: #f49958;
+}
+
+.topic .paragraph {
+  /* Typograph setting */
+  color: #c8c8c8;
+  font-family: Optima;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* brand */
+
+.brand {
+  width: 812px;
+  height: inherit;
+}
+
+/* submit */
+
+.submit {
+  width: 1244px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.submit .center {
+  width: 630px;
+  height: max-content;
+  /* height: 724px; */
+  /* border: 1px solid white; */
+}
+
+.submit .center .logo-container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.submit .center .logo-container .img {
+  height: inherit;
+  width: 269px;
+}
+
+.submit .center .ins-icon-container {
+  margin: 42px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.submit .center .ins-icon-container .outline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border: 2px solid #c8c8c8;
+  border-radius: 12px;
+}
+
+.submit .center .ins-icon-container .outline .center-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: inherit;
+}
+
+.submit .center .ins-icon-container .outline .upright-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: inherit;
+  position: absolute;
+  top: 9px;
+  left: 40px;
+}
+
+.submit .center form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.submit .center form input {
+  background-color: inherit;
+  margin-bottom: 24px;
+  padding: 18px 36px;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  outline: none;
+  /* typograph setting */
+  font-family: Optima, sans-serif;
+  font-size: 25px;
+  line-height: 24px;
+  color: #c8c8c8;
+}
+
+.submit .center form input#message {
+  height: 200px;
+}
+
+.submit .center form input[type="submit"] {
+  width: 224px;
+  height: 56px;
+  position: relative;
+  left: 406px;
+  cursor: pointer;
 }
